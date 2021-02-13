@@ -20,9 +20,9 @@ function isEmpty(obj) {
   return true;
 }
 
-alert(isEmpty(schedule)); // the object is empty so it will return - true
+console.log(isEmpty(schedule)); // the object is empty so it will return - true
 schedule["8:30"] = "get up";
-alert(isEmpty(schedule)); // the object isn't empty so it will return - false
+console.log(isEmpty(schedule)); // the object isn't empty so it will return - false
 
 // Sum object properties Task
 
